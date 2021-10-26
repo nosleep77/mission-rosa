@@ -3109,7 +3109,7 @@ spec:
         - containerPort: 6379
       securityContext:
         runAsNonRoot: true
-        runAsUser: 999
+        runAsUser: 1000970000
       serviceAccountName: argocd-redis
 ---
 apiVersion: apps/v1
